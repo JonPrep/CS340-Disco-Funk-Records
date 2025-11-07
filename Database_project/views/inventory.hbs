@@ -1,0 +1,23 @@
+<h2>Inventory</h2>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Inventory ID</th>
+    <th>Song</th>
+    <th>Artist</th>
+    <th>Format</th>
+    <th>Quantity</th>
+    <th>Price</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+    <td>{{inventoryID}}</td>
+    <td>{{title}}</td>
+    <td>{{artist}}</td>
+    <td>{{type}}</td>
+    <td>{{quantity}}</td>
+    <td>{{price}}</td>
+  </tr>
+  {{/each}}
+</table>

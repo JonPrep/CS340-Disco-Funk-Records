@@ -1,0 +1,23 @@
+<h2>Sales</h2>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Sale ID</th>
+    <th>Date</th>
+    <th>Customer</th>
+    <th>Amount</th>
+    <th>Payment Type</th>
+    <th>Status</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+    <td>{{salesID}}</td>
+    <td>{{invoiceDate}}</td>
+    <td>{{name}}</td>
+    <td>{{invoiceAmount}}</td>
+    <td>{{paymentType}}</td>
+    <td>{{status}}</td>
+  </tr>
+  {{/each}}
+</table>

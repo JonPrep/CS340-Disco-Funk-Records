@@ -1,0 +1,21 @@
+<h2>Customers</h2>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone</th>
+    <th>Email</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+    <td>{{customerID}}</td>
+    <td>{{name}}</td>
+    <td>{{address}}</td>
+    <td>{{phoneNumber}}</td>
+    <td>{{email}}</td>
+  </tr>
+  {{/each}}
+</table>

@@ -1,0 +1,22 @@
+<h2>Purchases</h2>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Purchase ID</th>
+    <th>Date</th>
+    <th>Supplier</th>
+    <th>Total Cost</th>
+    <th>Status</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+    <td>{{purchaseOrderID}}</td>
+    <td>{{purchaseDate}}</td>
+    <td>{{name}}</td>
+    <td>{{totalCost}}</td>
+    <td>{{status}}</td>
+  </tr>
+  {{/each}}
+</table>
+

@@ -1,0 +1,25 @@
+<h2>Songs</h2>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th>ID</th>
+    <th>Title</th>
+    <th>Genre</th>
+    <th>Artist</th>
+    <th>Album</th>
+    <th>Release Date</th>
+    <th>Format</th>
+  </tr>
+
+  {{#each data}}
+  <tr>
+    <td>{{songID}}</td>
+    <td>{{title}}</td>
+    <td>{{genre}}</td>
+    <td>{{artist}}</td>
+    <td>{{album}}</td>
+    <td>{{dateReleased}}</td>
+    <td>{{format}}</td>
+  </tr>
+  {{/each}}
+</table>
